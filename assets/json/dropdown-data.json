@@ -1,0 +1,191 @@
+
+{
+    "DOWNLOADBLECOLUMNS": [
+        {
+            "label": "Name",
+            "name": "name"
+        },
+        {
+            "label": "Email",
+            "name": "email_id"
+        },
+        {
+            "label": "Mobile No.",
+            "name": "mobile_no"
+        },
+        {
+            "label": "Username",
+            "name": "username"
+        },
+        {
+            "label": "Country",
+            "name": "country"
+        },
+        {
+            "label": "City",
+            "name": "city"
+        },
+        {
+            "label": "Country code",
+            "name": "country_code"
+        },
+        {
+            "label": "Profession",
+            "name": "profession"
+        },
+        {
+            "label": "Gender",
+            "name": "gender"
+        },
+        {
+            "label": "Date Of Birth",
+            "name": "dob"
+        },
+        {
+            "label": "Role",
+            "name": "role"
+        },
+        {
+            "label": "Status",
+            "name": "status"
+        },
+        {
+            "label": "Mobile No. Verified",
+            "name": "mobile_no_verified"
+        },
+        {
+            "label": "Email Verified",
+            "name": "email_verified"
+        },
+        {
+            "label": "User Verified",
+            "name": "user_verified"
+        },
+        {
+            "label": "Profile Image",
+            "name": "profile_image"
+        },
+        {
+            "label": "Cover Image",
+            "name": "cover_image"
+        },
+        {
+            "label": "Membership",
+            "name": "membership"
+        },
+        {
+            "label": "Registered Date",
+            "name": "created_at"
+        },
+        {
+            "label": "Profile progress",
+            "name": "profile_progress"
+        },
+        {
+            "label": "Verification status",
+            "name": "verification_status"
+        },
+        {
+            "label": "Account type",
+            "name": "account_type"
+        }
+    ],
+    "STATUS":[
+        { "label": "Active", "name": "ACTIVE" },
+        { "label": "Incomplete", "name": "INCOMPLETE" },
+        { "label": "Deleted", "name": "DELETED" },
+        { "label": "Blocked", "name":"BLOCKED" }
+    ],
+    "GENDER" : [
+        { "label": "Male", "name": "MALE" },
+        { "label": "Female", "name": "FEMALE" },
+        { "label": "Others", "name": "OTHERS" }
+    ],
+    "PROFILE" : [
+        { "label": "Verified", "name": true },
+        { "label": "Unverified", "name": false }
+    ],
+    "USERS" : [
+        { "label": "Premium users", "name": "PREMIUM" },
+        { "label": "Free users", "name": "FREE" }
+    ],
+    "ADMINSTATUS":[
+        { "label": "Active", "name": "ACTIVE" },
+        { "label": "Inactive", "name": "INACTIVE" },
+        { "label": "Block", "name": "BLOCKED" }
+    ],
+    "SALARY_TYPE" : [
+        { "label": "Per month", "name": "PER_MONTH" },
+        { "label": "Per Year", "name": "PER_YEAR" },
+        { "label": "Per day", "name": "PER_DAY" }
+    ],
+    "NOTIFICATION_SCREENS":[
+        { "id": 1, "label": "Home" ,"name": "HOME"},
+        { "id": 2, "label": "Connections", "name": "CONNECTIONS" },
+        { "id": 3, "label": "Calls", "name": "CALLS" },
+        { "id": 4, "label": "Profile - post", "name": "PROFILE_POST" },
+        { "id": 5, "label": "Profile - about", "name": "PROFILE_ABOUT" },
+        { "id": 6, "label": "Profile - Activity", "name": "PROFILE_ACTIVITY" },
+        { "id": 7, "label": "Profile - Dashboard", "name": "PROFILE_DASHBOARD" },
+        { "id": 8, "label": "Profile - Job Dashboard", "name": "PROFILE_JOBDASHBOARD" }
+      ],
+      "NOTIFICATION_STATUS":[
+        { "id": 1, "name": "DRAFT", "label": "Draft" },
+        { "id": 2, "name": "SCHEDULED", "label": "Scheduled" }
+      ],
+      "NOTIFICATION_DEVICE":[
+        { "id": 1, "name": "ANDROID", "label": "Android" },
+        { "id": 2, "name": "IOS", "label": "IOS" }
+      ],
+      "JOB_STATUS":[
+        { "name": "ACTIVE", "label": "Active" },
+        { "name": "INACTIVE", "label": "Inactive" },
+        { "name": "CLOSED", "label": "Closed" },
+        { "name": "DELETED", "label": "Deleted" },
+        { "name": "MODERATED", "label": "Moderated" }
+      ],
+      "REQUEST_STATUS":[
+        { "label": "Verified", "name": "VERIFIED" }, 
+        { "label": "Rejected", "name": "REJECTED" }, 
+        { "label": "Requested", "name": "REQUESTED" }
+      ],
+      "ADDEVICE" : [
+        { "name": "ANDROID", "label": "Android" },
+        { "name": "IOS", "label": "IOS" }
+      ],
+      "ADSCREEN" : [
+        { "name": "Level 1", "label": "Level 1" },
+        { "name": "Level 2", "label": "Level 2" },
+        { "name": "Level 3", "label": "Level 3" }
+      ],
+      "ADSTATUS" : [
+        { "name": "DRAFT", "label": "Draft" },
+        { "name": "SCHEDULED", "label": "Scheduled" }
+      ],
+      "CAMPAIGN_TIME": [
+        { "label": "00:00", "name": "00:00:00" },
+        { "label": "01:00", "name": "01:00:00" },
+        { "label": "02:00", "name": "02:00:00" },
+        { "label": "03:00", "name": "03:00:00" },
+        { "label": "04:00", "name": "04:00:00" },
+        { "label": "05:00", "name": "05:00:00" },
+        { "label": "06:00", "name": "06:00:00" },
+        { "label": "07:00", "name": "07:00:00" },
+        { "label": "08:00", "name": "08:00:00" },
+        { "label": "09:00", "name": "09:00:00" },
+        { "label": "10:00", "name": "10:00:00" },
+        { "label": "11:00", "name": "11:00:00" },
+        { "label": "12:00", "name": "12:00:00" },
+        { "label": "13:00", "name": "13:00:00" },
+        { "label": "14:00", "name": "14:00:00" },
+        { "label": "15:00", "name": "15:00:00" },
+        { "label": "16:00", "name": "16:00:00" },
+        { "label": "17:00", "name": "17:00:00" },
+        { "label": "18:00", "name": "18:00:00" },
+        { "label": "19:00", "name": "19:00:00" },
+        { "label": "20:00", "name": "20:00:00" },
+        { "label": "21:00", "name": "21:00:00" },
+        { "label": "22:00", "name": "22:00:00" },
+        { "label": "23:00", "name": "23:00:00" }
+    ]
+}
